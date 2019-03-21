@@ -1,2 +1,4 @@
 # TencentPosition-MySQL-json
 爬取腾讯招聘的职位信息，分别保存在MySQL数据库或者json文件中
+使用mysql数据库保存数据时，应该先创建对应的数据库名和表名，可以在pipelines.py文件中修改数据库连接的相关信息
+分别使用不同类型保存数据库时，应该在setting.py文件中修改对应的item pipeline的信息
